@@ -1,0 +1,120 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Ubuntu', sans-serif; */
+	word-spacing: 1.5px;
+	background-color: #F2F3F3;
+}
+::selection{
+	background-color: #366ED8;
+	color: #F3A953;
+}
+input{
+	margin: 5px 0;
+	width: 100%;
+}
+textarea{
+	resize: none;
+}
+
+#home-cvr{
+	margin: 2% 15%;
+	height: 100vh;
+}
+#about-cvr{
+	margin: 2% 26%;
+	height: 50vh;
+	text-align: center;
+}
+#portfolio-cvr{
+	margin: 2% 5%;
+	text-align: center;
+}
+#quotation-cvr{
+	margin: 2% 15%;
+	text-align: center;
+}
+.portfolio-col{
+	padding: 3px;
+}
+#about{
+	margin-top: 3%;
+}
+.about-p{
+	
+	text-align: center;
+	font-size: 1.3rem;
+}
+.about-btn{
+	margin-top: 5px;
+}
+.about-txt-hr{
+	text-decoration: overline;
+}
+.home-cvr-btn{
+	background-color: #366ED8;
+}
+.home-cvr-img{
+width: 100%;
+}
+.home-cvr-btn:hover{
+	color: #F3A953;
+}
+.home-col{
+	align-self: center;
+}
+.nav-item{
+	text-align: center;
+	margin: 0 10px;
+}
+
+.dropdown-menu{
+	text-align: center;
+}
+.active:hover{
+	text-decoration-line: overline;
+}
+.contact-btn{
+	margin-top: 10px;
+}
+
+/* begin mouse scroll */
+
+.scroll-downs {
+	margin: auto;
+	margin-top: 100px;
+	width :34px;
+	height: 55px;
+  }
+  .mousey {
+	width: 3px;
+	padding: 10px 15px;
+	height: 35px;
+	border: 2px solid #366ED8;
+	border-radius: 25px;
+	opacity: 0.75;
+	box-sizing: content-box;
+  }
+  .scroller {
+	width: 3px;
+	height: 10px;
+	border-radius: 25%;
+	background-color: #064ACB;
+	animation-name: scroll;
+	animation-duration: 2.2s;
+	animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+	animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+	0% { opacity: 0; }
+	10% { transform: translateY(0); opacity: 1; }
+	100% { transform: translateY(15px); opacity: 0;}
+  }
+
+  /* end mouse scroll */
+
+@media (max-width:700px){
+	/* Manage the size of the lion svg on smaller screens */
+	body{
+		background-color: #366ED8;
+	}
+}
