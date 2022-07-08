@@ -4,14 +4,14 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-app.set('view engine','ejs');
+app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
 
-app.get('/',function(req,res){
+app.get('/', function (req, res) {
 	res.render('home');
 });
 
-app.listen(3000,function(){
+app.listen(3000, function () {
 	console.log('Server started in port 3000!');
 });

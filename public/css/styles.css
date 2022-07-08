@@ -1,82 +1,100 @@
-body{
+body {
 	font-family: 'Poppins', sans-serif;
 	word-spacing: 1.5px;
 	background-color: #ffffff;
 	color: #233343;
-	padding-top: 65px; 
+	padding-top: 65px;
 }
-::selection{
+
+::selection {
 	background-color: #168D6D;
 	color: #FFFFFF;
 }
-input{
+
+input {
 	margin: 5px 0;
 	width: 100%;
 }
-textarea{
+
+textarea {
 	resize: none;
 }
 
-#home-cvr{
+#home-cvr {
 	margin: 2% 15%;
 	height: 100vh;
 	justify-content: center;
 }
-#about-cvr{
+
+#about-cvr {
 	margin: 2% 26%;
 	height: 50vh;
 	text-align: center;
 }
-#portfolio-cvr{
+
+#portfolio-cvr {
 	margin: 2% 5%;
 	text-align: center;
 }
-#quotation-cvr{
+
+#quotation-cvr {
 	margin: 2% 15%;
 	text-align: center;
 }
-.portfolio-col{
+
+.portfolio-col {
 	padding: 3px;
 }
-#about{
+
+#about {
 	margin-top: 3%;
 }
-.about-p{
-	
+
+.about-p {
+
 	text-align: center;
 	font-size: 1.3rem;
 }
-.about-btn{
+
+.about-btn {
 	margin-top: 5px;
 }
-.about-txt-hr{
+
+.about-txt-hr {
 	text-decoration: overline;
 }
-.home-cvr-btn{
+
+.home-cvr-btn {
 	background-color: #233343;
 }
-.home-cvr-img{
-width: 100%;
+
+.home-cvr-img {
+	width: 100%;
 }
-.home-cvr-btn:hover{
+
+.home-cvr-btn:hover {
 	color: #ffffff;
 	background-color: #118A67;
 }
-.home-col{
+
+.home-col {
 	align-self: center;
 }
-.nav-item{
+
+.nav-item {
 	text-align: center;
 	margin: 0 10px;
 }
 
-.dropdown-menu{
+.dropdown-menu {
 	text-align: center;
 }
-.active:hover{
+
+.active:hover {
 	text-decoration-line: overline;
 }
-.contact-btn{
+
+.contact-btn {
 	margin-top: 10px;
 }
 
@@ -85,10 +103,11 @@ width: 100%;
 .scroll-downs {
 	margin: auto;
 	margin-top: 100px;
-	width :34px;
+	width: 34px;
 	height: 55px;
-  }
-  .mousey {
+}
+
+.mousey {
 	width: 3px;
 	padding: 10px 15px;
 	height: 35px;
@@ -96,32 +115,40 @@ width: 100%;
 	border-radius: 25px;
 	opacity: 0.75;
 	box-sizing: content-box;
-  }
-  .scroller {
+}
+
+.scroller {
 	width: 3px;
 	height: 10px;
 	border-radius: 25%;
 	background-color: #064ACB;
 	animation-name: scroll;
 	animation-duration: 2.2s;
-	animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+	animation-timing-function: cubic-bezier(.15, .41, .69, .94);
 	animation-iteration-count: infinite;
-  }
-  @keyframes scroll {
-	0% { opacity: 0; }
-	10% { transform: translateY(0); opacity: 1; }
-	100% { transform: translateY(15px); opacity: 0;}
-  }
-
-  /* end mouse scroll */
-
-@media (max-width:700px){
-	
 }
+
+@keyframes scroll {
+	0% {
+		opacity: 0;
+	}
+
+	10% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+
+	100% {
+		transform: translateY(15px);
+		opacity: 0;
+	}
+}
+
+/* end mouse scroll */
 
 /* handles the bootstrap top spacing */
 @media (max-width: 979px) {
-	body {
-	  /* padding-top: 0px; */
+	body{
+		padding-top: 60px;
 	}
-  }
+}
