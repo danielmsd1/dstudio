@@ -1,12 +1,14 @@
 body{
-	font-family: 'Montserrat', sans-serif;
-	/* font-family: 'Ubuntu', sans-serif; */
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Ubuntu', sans-serif;
 	word-spacing: 1.5px;
-	background-color: #F2F3F3;
+	background-color: #ffffff;
+	color: #233343;
+	padding-top: 65px; 
 }
 ::selection{
-	background-color: #366ED8;
-	color: #F3A953;
+	background-color: #168D6D;
+	color: #FFFFFF;
 }
 input{
 	margin: 5px 0;
@@ -19,6 +21,7 @@ textarea{
 #home-cvr{
 	margin: 2% 15%;
 	height: 100vh;
+	justify-content: center;
 }
 #about-cvr{
 	margin: 2% 26%;
@@ -51,13 +54,14 @@ textarea{
 	text-decoration: overline;
 }
 .home-cvr-btn{
-	background-color: #366ED8;
+	background-color: #233343;
 }
 .home-cvr-img{
 width: 100%;
 }
 .home-cvr-btn:hover{
-	color: #F3A953;
+	color: #ffffff;
+	background-color: #118A67;
 }
 .home-col{
 	align-self: center;
@@ -113,8 +117,12 @@ width: 100%;
   /* end mouse scroll */
 
 @media (max-width:700px){
-	/* Manage the size of the lion svg on smaller screens */
-	body{
-		background-color: #366ED8;
-	}
+	
 }
+
+/* handles the bootstrap top spacing */
+@media (max-width: 979px) {
+	body {
+	  /* padding-top: 0px; */
+	}
+  }
