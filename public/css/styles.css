@@ -111,7 +111,7 @@ textarea {
 	width: 3px;
 	padding: 10px 15px;
 	height: 35px;
-	border: 2px solid #366ED8;
+	border: 2px solid #233343;
 	border-radius: 25px;
 	opacity: 0.75;
 	box-sizing: content-box;
@@ -121,7 +121,7 @@ textarea {
 	width: 3px;
 	height: 10px;
 	border-radius: 25%;
-	background-color: #064ACB;
+	background-color: #168D6D;
 	animation-name: scroll;
 	animation-duration: 2.2s;
 	animation-timing-function: cubic-bezier(.15, .41, .69, .94);
