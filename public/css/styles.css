@@ -207,6 +207,11 @@ textarea {
 .portfolio-fa-solid:hover{
  color: #118A67;
 }
+.project-description{
+	text-align: left;
+	font-size: 1.2rem;
+	word-spacing: 1.5;
+}
 /* handles the bootstrap top spacing */
 @media (max-width: 979px) {
 	body {
