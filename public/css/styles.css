@@ -150,6 +150,8 @@ textarea {
 .portfolio-ctr {
 	position: relative;
 	width: 100%;
+	background-image: -webkit-linear-gradient(right, transparent 0%, #118a67 15%, #233343 85%, transparent 90%);
+	background-image: linear-gradient(left, transparent 0%, #233343 15%, #118a67 85%, transparent 90%);
 }
 
 .portfolio-img {
@@ -194,7 +196,17 @@ textarea {
 .card {
 	border: none;
 }
-
+/* .card-footer{
+	border: none;
+	fill: none;
+} */
+.portfolio-fa-solid{
+	color: #233343;
+	text-decoration: none;
+}
+.portfolio-fa-solid:hover{
+ color: #118A67;
+}
 /* handles the bootstrap top spacing */
 @media (max-width: 979px) {
 	body {
