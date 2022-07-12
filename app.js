@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-	res.render('project');
+	res.render('learning');
 });
 
 app.listen(3000, function () {
