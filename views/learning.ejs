@@ -1,16 +1,17 @@
 <%-include('partials/header')-%>
 	<section id="portfolio-cvr">
-		<h2 class="about-txt-hr">Learning</h2>
+		<h2 class="about-txt-hr">Training</h2>
 
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-5">
+				<div class="col-lg-6">
+					<strong>Nodejs Zero to Expert</strong>
 					<hr>
-					
+					<div class="project-details">
+						Program Fee: $20 <br> Duration: 3 Months
+					</div>
 					<p class="project-description">
-						<div class="project-details">
-							Program Price: Kes. 2000
-						</div>
+
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nunc ipsum, euismod in volutpat
 						et, rutrum eget libero. Pellentesque non lorem eu felis consectetur dictum suscipit eget libero.
 						In sit amet tristique nibh. Praesent malesuada dui in augue rhoncus faucibus. Aliquam consequat
@@ -19,7 +20,7 @@
 						<br>
 						<button class="about-btn home-cvr-btn btn btn-secondary">Start Learning</button>
 						<br>
-					
+
 					</p>
 					<strong>Instructors[5]</strong>
 					<div class="project-sketch-ctr">
@@ -28,34 +29,34 @@
 							<div class="row">
 								<div class="col-lg-12">
 									<img src="https://images.unsplash.com/photo-1657642106373-aac1e710c6db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-							alt="PortfolioAvatar" class="portfolio-img-instructor">
-						<br>
-						Daniel Simiyu
+										alt="PortfolioAvatar" class="portfolio-img-instructor">
+									<br>
+
+									<strong>Daniel Simiyu</strong>
+									<p class="learning-inst-description">
+										Software Developer at Herufi, Inc.
+									</p>
 								</div>
 
 							</div>
 
 						</div>
-						
+
 
 					</div>
 				</div>
 
-				<div class="col-lg-7">
-					<strong>Sample Projects[2]</strong>
-					<div class="portfolio-ctr">
-						<img src="https://images.unsplash.com/photo-1657480194308-7752db5e21f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-							alt="PortfolioAvatar" class="portfolio-img">
-					</div>
-					<div class="portfolio-ctr">
-						<img src="https://images.unsplash.com/photo-1657480194308-7752db5e21f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-							alt="PortfolioAvatar" class="portfolio-img">
+				<div class="col-lg-6">
+					<div class="portfolio-ctr-logo">
+						<img src="images/dentcreativeslogo.svg" alt="PortfolioAvatar" class="portfolio-img">
 					</div>
 				</div>
 
 			</div>
 
 		</div>
+
+		<%-include('partials/contact')-%>
 	</section>
 
 
@@ -70,18 +71,33 @@
 			border-radius: 10px;
 			background-color: #168d6d;
 			color: #ffffff;
+			padding: 3px;
 		}
 
 		.project-sketch-ctr {
 			width: 100%;
 			/* border-radius: 100px; */
 		}
-		.portfolio-img-instructor{
+
+		.portfolio-img-instructor {
 			height: 300px;
 			/* width: 300px; */
 			padding: 10px;
 			border-radius: 20px;
 			border: 2px solid;
+		}
+
+		.portfolio-ctr-logo {
+			padding: 10px;
+			border-radius: 15px 5px;
+			border: 2px 0 0 1px;
+		}
+		.learning-inst-description{
+			/* text-align: left; */
+			background-color: #233343;
+			color: #ffffff;
+			padding: 10px;
+			border-radius: 10px;
 		}
 	</style>
 	<%-include('partials/footer')-%>

@@ -1,6 +1,6 @@
 <%-include('partials/header')-%>
 	<section id="portfolio-cvr">
-		<h2 class="about-txt-hr">Learning</h2>
+		<h2 class="about-txt-hr">Graphic Design</h2>
 
 		<div class="container-fluid">
 			<div class="row">
@@ -16,40 +16,13 @@
 						commodo. Fusce eu tellus dictum, aliquam lectus efficitur, sollicitudin lacus.
 						<br>
 						<button class="about-btn home-cvr-btn btn btn-secondary">Get Started</button>
-						<br>
 					
 					</p>
-					<strong>Instructors[5]</strong>
-					<div class="project-sketch-ctr">
-
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-lg-12">
-									<img src="https://images.unsplash.com/photo-1657642106373-aac1e710c6db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-							alt="PortfolioAvatar" class="portfolio-img-instructor">
-						<br>
-						Daniel Simiyu
-						<div class="project-details">
-							Motion Graphics
-						</div>
-								</div>
-
-							</div>
-
-						</div>
-						
-
-					</div>
 				</div>
 
 				<div class="col-lg-7">
-					<strong>Sample Projects[2]</strong>
-					<div class="portfolio-ctr">
-						<img src="https://images.unsplash.com/photo-1657480194308-7752db5e21f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-							alt="PortfolioAvatar" class="portfolio-img">
-					</div>
-					<div class="portfolio-ctr">
-						<img src="https://images.unsplash.com/photo-1657480194308-7752db5e21f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+					<div class="portfolio-ctr-logo">
+						<img src="images/dentcreativeslogo.svg"
 							alt="PortfolioAvatar" class="portfolio-img">
 					</div>
 				</div>
@@ -57,6 +30,7 @@
 			</div>
 
 		</div>
+		<%- include('partials/contact') -%>
 	</section>
 
 
@@ -75,14 +49,20 @@
 
 		.project-sketch-ctr {
 			width: 100%;
-			/* border-radius: 100px; */
 		}
 		.portfolio-img-instructor{
 			height: 300px;
-			/* width: 300px; */
 			padding: 10px;
 			border-radius: 20px;
 			border: 2px solid;
+		}
+		.portfolio-img{
+			width: 50%;
+		}
+		.portfolio-ctr-logo{
+			padding: 10px;
+			border-radius: 15px 5px;
+			border: 2px 0 0 1px;
 		}
 	</style>
 	<%-include('partials/footer')-%>
