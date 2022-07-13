@@ -214,6 +214,6 @@ textarea {
 /* handles the bootstrap top spacing */
 @media (max-width: 979px) {
 	body {
-		padding-top: 60px;
+		padding-top: 65px;
 	}
 }
