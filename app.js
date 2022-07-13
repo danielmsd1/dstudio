@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-	res.render('careersview');
+	res.render('career');
 });
 
 app.listen(3000, function () {
